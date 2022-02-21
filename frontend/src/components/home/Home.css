@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Lato", sans-serif;
+}
+
+/* ---------------- Home ---------------- */
+.slider ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  padding: 2rem;
+}
+
+
+.slider {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 25px;
+}
+
+/* ---------------- End of Home ---------------- */
